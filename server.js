@@ -19,7 +19,7 @@ mongoose.connect('mongodb+srv://nitinm23:vSSUeTsf5FwoUEqd@cluster0.e3psu.mongodb
   .then(() => console.log('Connected to MongoDB'))
   .catch(err => console.error('Could not connect to MongoDB:', err));
 
-// Define MongoDB schemas
+  
 const orderSchema = new mongoose.Schema({
   type: { type: String, enum: ['buy', 'sell'], required: true },
   quantity: { type: Number, required: true, min: 0 },

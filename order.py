@@ -7,7 +7,7 @@ from bson.objectid import ObjectId
 #IP 14.139.38.107/32
 #user nitinm23
 #pass vSSUeTsf5FwoUEqd
-client = MongoClient('mongodb://localhost:27017/')
+client = MongoClient('mongodb+srv://nitinm23:vSSUeTsf5FwoUEqd@cluster0.e3psu.mongodb.net/')
 db = client['trading_platform']
 
 # Collections
